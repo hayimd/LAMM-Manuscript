@@ -1,9 +1,9 @@
 # Introduction
-Basic overview of the problem
+## Word list recall
 
-Memory theories, summary of trends
+## Memory theories, summary of trends
 
-Summary of modeling approaches
+## Summary of modeling approaches
 
 Survey of important / relevant models
 
