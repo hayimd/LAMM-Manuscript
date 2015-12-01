@@ -1,5 +1,4 @@
 # Discussion
-
 Strengths
 
 Weaknesses
