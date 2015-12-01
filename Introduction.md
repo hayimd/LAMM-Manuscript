@@ -6,3 +6,5 @@ Memory theories, summary of trends
 Summary of modeling approaches
 
 Survey of important / relevant models
+
+test cite \cite{Rabbitt_1968}
