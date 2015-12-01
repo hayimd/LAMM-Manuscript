@@ -7,4 +7,4 @@ Summary of modeling approaches
 
 Survey of important / relevant models
 
-test cite \cite{Rabbitt_1968}
+test cite \cite{Rabbitt1968}
