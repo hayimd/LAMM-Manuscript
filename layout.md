@@ -1,5 +1,5 @@
 Abstract.md
 Introduction.md
-Results_That_the_model_recalls__.md
+Results.md
 Discussion.md
 Methods_Representation_Network_structure_Model__.md
