@@ -2,4 +2,4 @@ Abstract.md
 Introduction.md
 Results.md
 Discussion.md
-Methods_Representation_Network_structure_Model__.md
+Methods.md
