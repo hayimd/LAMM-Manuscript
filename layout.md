@@ -1,5 +1,5 @@
 Abstract.md
 Introduction.md
 Results_That_the_model_recalls__.md
-Discussion__.md
+Discussion_Strengths_Weaknesses_Comparisons_to__.md
 Methods__.md
