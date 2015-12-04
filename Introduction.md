@@ -16,6 +16,8 @@ Process models, recall probability laws, biological mechanistic models
 
 Survey of important / relevant models
 
-* process models \cite{Raaijmakers1981,Davelaar2005,Cousins2014)
+* process models \cite{Raaijmakers1981,Davelaar2005,Cousins2014}
 * similarity models \cite{Howard2002,Brown2002,Brown2007}
 * dual models? \cite{Sederberg2008}
+
+Other models \cite{Szatmary2010,Machens2005}
