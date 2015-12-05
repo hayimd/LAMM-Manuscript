@@ -1,1 +1,1 @@
-can recall a sequence
+Figure 1 can recall a sequence \label{sequence}
