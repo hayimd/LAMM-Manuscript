@@ -1,6 +1,6 @@
 # Results
 
-That the model recalls as broadly intended
+## That the model recalls as broadly intended
 
 * can recall sequences imperfectly
  * compare with behavioural data
@@ -9,7 +9,7 @@ That the model recalls as broadly intended
 * recall vs list length scales as power law \cite{Murdock1962}
 
 
-Analaysis of dynamics
+## Analaysis of dynamics
 
 * correlations showing memory activity driven mainly by projective connectivity
 * recall of words vs initial biases, c.f receptive fields -- seemingly a broad null result
@@ -18,7 +18,7 @@ Analaysis of dynamics
 * comparison of recall plasticity vs none sequences
 
 
-Analysis of robustness <-- not done
+## Analysis of robustness <-- not done
 
 * what effect to parameter changes have?
  * how much heterogeneity is there built in?
