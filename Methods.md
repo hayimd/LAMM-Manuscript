@@ -10,7 +10,7 @@ Representation
  * memory module is designed to hava a measure of distributed/overlapping representaiton, in order to ecode conjunctions and context. (cf \cite{Howard2002,Davelaar2005})
 * episodes are encoded in theoretically two ways:
  1. in the changes in activation-based plasticity that result from the sequence of activated words and memory units
- 2. in any persistent activity still in the memory module at list end -- this activity sould preferantially represent/store late list items, and thus be more related to recency effect.
+ 2. in any persistent activity still in the memory module at list end -- this activity sould preferantially represent/store late list items, and thus be more related to recency effect.  
     * [^ can check this!.. have i already?]
 
 Network structure
