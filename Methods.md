@@ -10,10 +10,14 @@ Representation
  * memory module is designed to hava a measure of distributed/overlapping representaiton, in order to ecode conjunctions and context. (cf \cite{Howard2002,Davelaar2005})
 * episodes are encoded in theoretically two ways:
  1. in the changes in activation-based plasticity that result from the sequence of activated words and memory units.  
- 2. in any persistent activity still in the memory module at list end -- this activity sould preferantially represent/store late list items, and thus be more related to recency effect.  
+ 2. in any persistent activity still in the memory module at list end -- this activity should preferantially represent/store late list items, and thus be more related to recency effect.  
      * [^ can check this!.. have i already?]
 
 Network structure
+* Two layer network. 1st representing the lexicon, WTA. 2nd the memory module, designed as a k-winners take all attractor net [but weakly so? strenghtened by plasticity? CHECK THIS, noplastic.]
+* Inhibitory units within each layer inhibit own layer units but not those in other layer.
+* Excitatory units have strong self and interlayer connections, but weak lateral connectivity to units within their own layer. Exc. units project connections to both own and other layer inhibitory cells.
+* All excitatory connections are plastic, and change according to short-term associative potentiating rule, approximating ASTP \cite{Erickson2010}. Max potentiation is ~ 40%, but differs by connection type. Connection and plastiity parameters can be found in Table X.
 
 Model choices
 
