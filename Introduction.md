@@ -20,6 +20,6 @@ Survey of important / relevant models
 * process models \cite{Raaijmakers1981,Davelaar2005,Cousins2014}
 * similarity models \cite{Howard2002,Brown2002,Brown2007}
 * dual models? \cite{Sederberg2008,Piquado2010}
-* Primacy/PFR \cite{Farrell2012c,Lehman2013}
+* Primacy/PFR \cite{Farrell2012a,Lehman2013}
 
 Other models \cite{Szatmary2010,Machens2005}
