@@ -5,7 +5,7 @@
 Buffers (active maintenance) vs similarity (interference)
 Dual store vs single store
 
-- Whether there are dedicated memory modules or whether short term memory is effected by attentional processes \cite{Postle2006,Jonides2007,Courtney2004}
+- Whether there are dedicated memory modules or whether short term memory is effected by attentional processes \cite{Postle2006,Jonides2008,Courtney2004}
 - \cite{Davelaar2005} and \cite{Rabbitt1968} -> \cite{Miller2010} necessity of buffers (dual mechanisms)
 
 ## Summary of modeling approaches
