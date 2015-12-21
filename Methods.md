@@ -19,10 +19,12 @@ Network structure
 * Inhibitory units within each layer inhibit own layer units but not those in other layer.
 * Excitatory units have strong self and interlayer connections, but weak lateral connectivity to units within their own layer. Exc. units project connections to both own and other layer inhibitory cells.
 * All excitatory connections are plastic, and change according to short-term associative potentiating rule, approximating ASTP \cite{Erickson2010a}. Max potentiation is ~ 40%, but differs by connection type. Connection and plastiity parameters can be found in Table X.
-* External excitation to both networks represent afferents from other/ related networks, and attentional control
-    * Eg different levels of excitatio to memory and lexicon used to kick start recall (increase to memory net, decrease to lexicon).
-
+* External excitation to both networks represent afferents from other/ related networks, and attentional control [^ some kind of network structure citation? If LAMM is in PFC, then what are its inputs?]
+    * Eg different levels of excitation to memory and lexicon used to kick start recall (increase to memory net, decrease to lexicon).
+* All units have non-linear synaptic dynamics (faciliation and depression), as well as spike rate adaptation.  
 
 Model choices
 
-- 
+- Exact connectivity is arbitrary..
+    - Projections from lexicon to memory are slightly sparse, in order to increase selectivity [< this perhaps is why the network is so strongly driven by I->M connections!]
+    - Levels of faciliation, depression, adaptation [< chosen... how?] 
