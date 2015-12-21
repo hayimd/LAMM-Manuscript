@@ -23,7 +23,9 @@ Network structure
 * All units have non-linear synaptic dynamics (faciliation and depression), as well as spike rate adaptation.  
 
 Networks composed of rate model cells \cite{Brunel2002b,Renarr2004}, representing groups of correlated, similarly connected neurons. They obey following dynamics
-\[ r(i) = F\left[I_{tot.}\right]^+\]
+\[ r(i) = F\left[\mathbf{W}\cdot\vec{S} + i_{\sigma} \right]^+\]
+where 
+
 
 
 Model choices
