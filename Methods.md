@@ -23,8 +23,9 @@ Network structure
 * All units have non-linear synaptic dynamics (faciliation and depression), as well as spike rate adaptation.  
 
 Networks composed of rate model cells \cite{Brunel2002b,Renarr2004}, representing groups of correlated, similarly connected neurons. They obey following dynamics
-\[ r(i,t) = \mathcal{f}\left[\mathbf{W}(t)\cdot\vec{S}(t) + i_{\sigma}(t) \right]^+\]
-where 
+\[ r(i,t) = F\left[\mathbf{W}(t)\cdot\vec{S}(t) + i_{\sigma}(t) \right]^+\]
+where *F* is the neural response function to current input, chosen to be largely linear but with smooth bounds, in our case the sigmoid functions
+\[\frac{r_{max}-r}{(1+\exp(I_{th.}-I_0)/I_{width})^{\beta}}\]
 
 
 
