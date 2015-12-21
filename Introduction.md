@@ -1,6 +1,9 @@
 # Introduction
 ## Word list recall
 
+- Is an experimental paradigm with long history as a model system for short term memory and rich behavioural phenomena.
+- several models proposed, notably differnetial memory for late list items key support for the idea of the short term memory buffer.
+
 ## Memory theories, summary of trends
 Buffers (active maintenance) vs similarity (interference)
 Dual store vs single store
