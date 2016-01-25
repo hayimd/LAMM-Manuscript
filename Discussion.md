@@ -8,4 +8,4 @@ Comparisons to other models
 
 \\[r(i,t)=F_{r-i}[\mathbf{W}(t)\cdot\vec{S}(t)]^+\\]
 
-\\[[\mathbf{W}(t)\cdot\vec{S}(t)+i_\sigma(t)]^+\\]
+\\[r(i,t)=F^{r}[\mathbf{W}(t)\cdot\vec{S}(t)+i_\sigma(t)]^+\\]
