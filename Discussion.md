@@ -5,4 +5,4 @@ Weaknesses
 
 Comparisons to other models
 
-What the \(x^2\) ??
+What the \\(x^2\\) ??
