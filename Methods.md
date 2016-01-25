@@ -23,7 +23,9 @@ Network structure
 * All units have non-linear synaptic dynamics (faciliation and depression), as well as spike rate adaptation.  
 
 Networks composed of rate model cells \cite{Brunel2002b,Renarr2004}, representing groups of correlated, similarly connected neurons. They obey following dynamics
+
 \[\[ r(i,t) = F_{r-i}\left[\mathbf{W}(t)\cdot\vec{S}(t) + i_{\sigma}(t) \right]^+\]\]
+
 where \(F_{r-i}(i)\) is the neural rate response function to current input, chosen to be largely linear but with smooth bounds, in our case the sigmoid functions
 \[F_{r-i}(i)=\frac{r_{max}-r}{(1+\exp(i_{th.}-i_0)/i_{width})^{\alpha}}\]
 with $\alpha=1,0.5$ for the lexicon and memory cells respectively. The lower value of \(\alpha\) gives memory units a faster response at low current values, in order to simulate fast spiking inhibitory neurons. Synaptic dynamics are contained in the overall pre-synaptic gating variable for each unit _j_, \(S_j(t)\), which depends on two other variables representing the neutransmitter vesicle release and availability probabilities, \(p_j(t)\) and \(D_j(t)\). These together obey
