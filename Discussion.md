@@ -6,4 +6,4 @@ Weaknesses
 Comparisons to other models
 
 
-\\[w_{!} t^{?} f^{a}\\]
+\\[w_{!} t_{?} f^{a}\\]
