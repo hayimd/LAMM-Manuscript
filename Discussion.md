@@ -10,4 +10,4 @@ Comparisons to other models
 
 \\[r(i,t)=F_{r}[\mathbf{W}(t)\cdot\vec{S}(t)+i^\sigma(t)]^+\\]
 
-\\(w^! t^? f_a\\)
+\\(w_! t^? f_a\\)
