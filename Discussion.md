@@ -6,6 +6,6 @@ Weaknesses
 
 Comparisons to other models
 
-WTF \\[ a_b c^d e^f_g \\]
+WTF \[ a_b c^d e_f \]
 
-\\[ w_{!} f^{a} \\]
+\[ w_{!} f^{a} \]
