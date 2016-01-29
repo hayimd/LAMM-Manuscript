@@ -29,9 +29,9 @@ Networks composed of rate model cells \cite{Brunel2002b,Renarr2004}, representin
 where \(F_{r-i}(i)\) is the neural rate response function to current input, chosen to be largely linear but with smooth bounds, in our case the sigmoid functions
 \[F_{r-i}(i)=\frac{r_{max}-r}{(1+\exp(i_{th.}-i_0)/i_{width})^{\alpha}}\]
 with \(\alpha=1,0.5\) for the lexicon and memory cells respectively. The lower value of \(\alpha\) gives memory units a faster response at low current values, in order to simulate fast spiking inhibitory neurons. Synaptic dynamics are contained in the overall pre-synaptic gating variable for each unit _j_, \(S_j(t)\), which depends on two other variables representing the neutransmitter vesicle release and availability probabilities, \(p_j(t)\) and \(D_j(t)\). These together obey
-\[ \frac{\tau_p}{1+rf\tau_p}  \dot{p} = -p + \frac{p_0+rf\tau_p}{1+rf\tau_p} \]
-\[ \frac{\tau_D}{1+rp\tau_D}    \dot{D} = -D + \frac{1}{1+rpD} \]
-\[ \frac{\tau_S}{1+rpD s_0\tau_S} \dot{S} = -S + \frac{rpDs_0\tau_S}{1+rpDs_0\tau_S}. \]
+\[ \frac{\tau_p}{1+r\,f\,\tau_p}  \dot{p} = -p + \frac{p_0+r\,f\,\tau_p}{1+r\,f\,\tau_p} \]
+\[ \frac{\tau_D}{1+r\,p\,\tau_D}    \dot{D} = -D + \frac{1}{1+r\,p\,D} \]
+\[ \frac{\tau_S}{1+r\,p\,D\,s_0\,\tau_S} \dot{S} = -S + \frac{r\,p\,D\,s_0\,\tau_S}{1+r\,p\,D\,s_0\,\tau_S}. \]
 Constant \(s_0\) represents the probability that a post-synaptic conductance channel will be open, but we do not define different values for different target units.
 Model units also experience spike rate adaptation, which lowers the gain of the unit after a period of continuous activation. This is modeled as an additional current \cite{Benda2003}
 \[ \frac{\tau_a}{1+r\,\alpha_0\,\tau_a} \dot{a} = -a + \frac{r\,\alpha_0\,\tau_a}{1+r\,\alpha_0\,\tau_a}. \]
