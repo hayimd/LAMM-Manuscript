@@ -32,8 +32,9 @@ with \(\alpha=1,0.5\) for the lexicon and memory cells respectively. The lower v
 \[ \frac{\tau_p}{1+rf\tau_p}  \dot{p} = -p + \frac{p_0+rf\tau_p}{1+rf\tau_p} \]
 \[ \frac{\tau_D}{1+rp\tau_D}    \dot{D} = -D + \frac{1}{1+rpD} \]
 \[ \frac{\tau_S}{1+rpD s_0\tau_S} \dot{S} = -S + \frac{rpDs_0\tau_S}{1+rpDs_0\tau_S}. \]
-\(s_0\) represents the probability that a post-synaptic conductance channel will be open, but we do not define different values for different target units.
-Model units also 
+Constant \(s_0\) represents the probability that a post-synaptic conductance channel will be open, but we do not define different values for different target units.
+Model units also experience spike rate adaptation, which lowers the gain of the unit after a period of continuous activation. This is modeled as an additional current \cite{Benda2003}
+\[ \frac{\tau_a}{1+r\alpha_0\tau_a} \dot{a} = -\bar{a} + \frac{r\alpha_0\tau_a}{1+r\alpha_0\tau_a}. \]
 
 
 Model choices
