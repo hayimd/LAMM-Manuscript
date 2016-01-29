@@ -35,7 +35,8 @@ with \(\alpha=1,0.5\) for the lexicon and memory cells respectively. The lower v
 Constant \(s_0\) represents the probability that a post-synaptic conductance channel will be open, but we do not define different values for different target units.
 Model units also experience spike rate adaptation, which lowers the gain of the unit after a period of continuous activation. This is modeled as an additional current \cite{Benda2003}
 \[ \frac{\tau_a}{1+r\,\alpha_0\,\tau_a} \dot{a} = -a + \frac{r\,\alpha_0\,\tau_a}{1+r\,\alpha_0\,\tau_a}. \]
-A short-term memory network which uses synaptic linking must also have a mechanism for the weakening of those links. The form of plasticity employed in the model is based on a fast-activating but decaying bidirection potentiation \cite[ASTP, ]{Erickson2010a}, which 
+A short-term memory network which uses synaptic linking must also have a mechanism for the weakening of those links. The form of plasticity employed in the model is based on a fast-activating but temporary bidirectional potentiation of up to 50%, and decaying to baseline over approximately 20 minutes \cite[ASTP, ]{Erickson2010a}. ASTP appears to require both consecutive pre- and post-synaptic spiking, which we simplify in the rate-model as taking the product of each unit's firing rate above a smoothed threshold
+\[\Delta W_{i\leftarrow j} = \Delta W_0 \]
 
 Model choices
 
