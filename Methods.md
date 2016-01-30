@@ -38,7 +38,8 @@ Model units also experience spike rate adaptation, which lowers the gain of the 
 A short-term memory network which uses synaptic linking must also have a mechanism for the weakening of those links. The form of plasticity employed in the model is based on a fast-activating but temporary bidirectional potentiation of up to 50%, and decaying to baseline over approximately 20 minutes \cite[ASTP, ]{Erickson2010a}. ASTP appears to require both consecutive pre- and post-synaptic spiking, which we simplify in the rate-model as taking the product of each unit's firing rate above a smoothed threshold
 \[\Delta W_{i\leftarrow j} = \frac{1}{1+ \exp(-(r_i-\rho_{post})/\gamma)}\frac{1}{1+\exp(-(r_j-\rho_{pre})/\gamma)} \]
 as the maximum potentiation increment for the synapse from unit j to unit i, with dynamics
-\[\dot{W}_{i\leftarrow j} = \frac{W_{i\leftarrow j}^0 - W_{i\leftarrow j}(t)}{\tau_{fall}} + \Delta W_{i\leftarrow j} \frac{W_{i\leftarrow j}^{max} - W_{i\leftarrow j}(t)}{\tau_{rise}} \].
+\[\dot{W}_{i\leftarrow j} = \frac{W_{i\leftarrow j}^0 - W_{i\leftarrow j}(t)}{\tau_{fall}} + \Delta W_{i\leftarrow j} \frac{W_{i\leftarrow j}^{max} - W_{i\leftarrow j}(t)}{\tau_{rise}}. \]
+Rate thresholds \(\rho\) and threshold steepness \(\gamma\) were fit by the optimization, while rate contants \(\tau_{rise} = .5 s\) and \(tau_{fall} = 90 s\) were estimated from the data in \cite{Erickson2010a}.
 
 
 Model choices
