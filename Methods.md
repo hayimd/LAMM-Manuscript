@@ -39,7 +39,7 @@ A short-term memory network which uses synaptic linking must also have a mechani
 \[\Delta W_{i\leftarrow j} = \frac{1}{1+ \exp(-(r_i-\rho_{post})/\gamma)}\frac{1}{1+\exp(-(r_j-\rho_{pre})/\gamma)} \]
 as the maximum potentiation increment for the synapse from unit j to unit i, with dynamics
 \[\dot{W}_{i\leftarrow j} = \frac{W_{i\leftarrow j}^0 - W_{i\leftarrow j}(t)}{\tau_{fall}} + \Delta W_{i\leftarrow j} \frac{W_{i\leftarrow j}^{max} - W_{i\leftarrow j}(t)}{\tau_{rise}}. \]
-Rate thresholds \(\rho\) and threshold steepness \(\gamma\) were fit by the optimization, while rate contants \(\tau_{rise} = .5 s\) and \(tau_{fall} = 90 s\) were estimated from the data in \cite{Erickson2010a}.
+Rate thresholds \(\rho\) and threshold steepness \(\gamma\) were fit by the optimization, while rate contants \(\tau_{rise} = .5 \textrm{ s}\) and \(\tau_{fall} = 90 \textrm{ s}\) were estimated from the data in \cite{Erickson2010a}.
 
 
 Model choices
