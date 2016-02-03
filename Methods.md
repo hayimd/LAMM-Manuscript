@@ -22,7 +22,7 @@ Network structure
     * Eg different levels of excitation to memory and lexicon used to kick start recall (increase to memory net, decrease to lexicon).
 * All units have non-linear synaptic dynamics (faciliation and depression), as well as spike rate adaptation.  
 
-Networks composed of rate model cells \cite{Brunel2002b,Renarr2004}, representing groups of correlated, similarly connected neurons. They obey following dynamics
+Networks composed of rate model cells \cite{Brunel2002b,Renart2004}, representing groups of correlated, similarly connected neurons. They obey following dynamics
 
 \[ r(i,t) = F_{r-i}\left[\mathbf{W}(t)\cdot\vec{S}(t) + i_{\sigma}(t) \right]^+ \]
 
