@@ -7,4 +7,5 @@ Results 2.md
 figures/4.15-16 item corrs in mem/4.15-16 item corrs in mem.png
 figures/4.22 Recall vs noise/4.22 Recall vs noise.png
 Discussion.md
+figures/4.23 perms both/4.23 perms both.png
 Methods.md
