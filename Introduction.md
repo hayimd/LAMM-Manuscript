@@ -8,6 +8,9 @@ The Linking via Active Maintenance Model aims to explore the biological feasibil
 ## Word list recall
 
 - Is an experimental paradigm with long history as a model system for short term memory and rich behavioural phenomena.
+
+Recall for sequentially presented lists of items has long been a key experimental paradigm for revealing hidden structure in memory dynamics. Dependencies on list-position, presentation timing, temporal contiguity, effects of rehearsal, intra- and inter-list interference, categorical and acoustic relatedness, and scaling laws have all been observed \cite{Murdock1962,Rundus1971,Kahana1996,Golomb2008,Grenfell-Essam2012,Cowan2008a,Farrell2011a} (more!). Disruptions and distractions have been used to probe the stages and modalities of memory encoding \cite{Carroll2012Elliot1998,Spataro2013,Cowan2008} including the finding of a retroactive effect indicating that encoding into short term memory continues beyond the removal of the stimulus \cite{Rabbitt1980,Cousins2014}.
+
 - several models proposed, notably differnetial memory for late list items key support for the idea of the short term memory buffer.
 
 ## Memory theories, summary of trends
