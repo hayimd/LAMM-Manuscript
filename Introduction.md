@@ -13,11 +13,19 @@ Recall for sequentially presented lists of items has long been a key experimenta
 
 - several models proposed, notably differential memory for late list items key support for the idea of the short term memory buffer.
 
-The key point of disagreement within the literature is whether short-term memory is computed by the same processes that encode and retrieve long term memory (the 'unitary view'), or by dedicated, temporally limited processes (the 'dual-store' or 'dual-process' view) \cite{Raaijmakers1981a,Davelaar2005,Sederberg2008}. Generally, unitary models have relied on representations of distinctiveness between items to be remembered, which contain some invariance to timsecales \cite{Brown2002,Howard2002}, whilst dual-process models have posited a separate, short-term, actively maintained or reverberatory storage, or buffer \cite{Baddeley1974,Raaijmakers1981,Davelaar2005} (more!). More recently, structural similarities have been pointed out between actual computational implementations of the different theories \cite{Usher2008} and modeling has suggested that both distinctiveness and buffer mechanisms may be necessary \cite{Piquado2010,Miller2010,Cousins2014}.
+A key point of disagreement within the literature is whether memory for recently perceived list items is computed by the same processes that encode and retrieve general long term memory (LTM) (the 'unitary view'), or by dedicated, temporally limited 'short-term' processes (the 'dual-store' or 'dual-process' view) \cite{Raaijmakers1981a,Davelaar2005,Sederberg2008}. Generally, unitary models have relied on representations of distinctiveness between items to be remembered, which contain some invariance to timsecales \cite{Brown2002,Howard2002}, whilst dual-process models have posited a separate, short-term, actively maintained or reverberatory storage, or 'buffer' \cite{Baddeley1974,Raaijmakers1981,Davelaar2005} (more!). More recently, structural similarities have been pointed out between actual computational implementations of the different theories \cite{Usher2008}, and modeling has suggested that both distinctiveness and buffer mechanisms may be necessary \cite{Piquado2010,Miller2010,Cousins2014}. In most cases such short-term processes are assumed to contribute most strongly to memory for only very recently perceived stimuli, such as the ends of a word list, so that theoretical disagreement focuses on how these 'recent' items are remembered.
+
 
 ## Memory theories, summary of trends
-Buffers (active maintenance) vs similarity (interference)
-Dual store vs single store
+
+-Buffers (active maintenance) vs similarity (interference)
+
+The debate regarding the mechanisms operating in list recall tasks is a front in the larger debate about short-term memory in general: that between buffer maintenance and attention-driven theories. Buffer theories posit that the most recently perceived stimuli are maintained in short term memory buffers via active mechanisms \cite{Baddeley1974,Baddeley2010,Davelaar2005,Grossberg1978,Bradski1994}. This view has won empirical support, especially from electophysiological recordings from behaving primates \cite{Funahashi1979,Fuster1971,Fuster1973,Miyashita1988,Miyashita1998a}, coalescing into a 'standard model' of short term memory \cite{Goldman-Rakic1987,Goldman-Rakic1990,Courtney2004,Postle2006}.
+
+Attention driven theories propose that short-term memory is simply the process of temporarily re-activating, or 'attending' to, memory representations stored in LTM \cite{Cowan1993,Cowan2008} (more?). Such theories reject Baddeley's \cite{Baddeley1974} physical separation of short- from long-term processing, and instead propose a functional separation only, consistent consistent with Atkinson & Shiffrin's original . In this view, attentional processes reactivate , 
+
+
+
 
 - Whether there are dedicated memory modules or whether short term memory is effected by attentional processes \cite{Postle2006,Jonides2008,Courtney2004}
 - \cite{Davelaar2005} and \cite{Rabbitt1968} -> \cite{Miller2010} necessity of buffers (dual mechanisms)
