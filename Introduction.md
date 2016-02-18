@@ -28,18 +28,16 @@ In this way \cite{Cowan2008} leaves open the possibility for both decay of activ
 
 Given, firstly, the natural representational overlap between context and its constituent parts, as evident in TCM; secondly, evidence suggesting that both buffer- and context-like mechanisms may be needed to exlplain observed recall phenomena \cite{Miller2010,Cousins2014}; and the efficiency advantage in constructing short-term memory as a process operating on LTM representations \cite{Raaijmakers1981a,Davelaar2013,Postle2006} rather than require a potentially combinatoric duplication of LTM; we propose a novel short-term memory network with the following properties: The LAMM memory network is an activation based buffer, which represents stimuli agnostically to the stimulus type or modality, and in which items being remembered are also associated with one another, encoding contextual information about such multi-item episodes.
 
-## Summary of modeling approaches
+## Comparison to other models
+- Most similar models
+
+LAMM's mechanisms are most similar to Raaijmaker and Shiffrin's Search of Associative Memory (SAM) \cite{Raaijmaker1981}, and in some ways can be considered a biological implementation of those ideas. LAMM's shares much with \cite{Davelaar2005} in general construction, except that their memory network activity evolves stochastically, and independently of items presented, unlike ours. Instead, LAMM's memory network could be seen as a crude neuronal implementation of TCM's context signal, in that memory activity both reflects and is driven by presented items, yet we do not have the perfect fidelity of representation that TCM's infinite dimensional context vector allows. Additionally, the LTM network comprising the other half of LAMM operates in a similar fashion to the memory model of \cite{Lansner2013} (talk about our difference here!).
+
 - Process models, recall probability laws, biological mechanistic models
-
-* Processes as algorithmic, simulated time dependent
 * Recall laws as defining a probability for recalls given parameters
-* Specific mechanistic/ biological implementations, \cite{Lisman1995,Grossberg1978}
 
-Survey of important / relevant models
+Most generally, list memory models may be classified into process models, which ... \cite{Raaijmakers1981,Davelaar2005,Sederberg2008,Piquado2010,Farrell2012a,Lehman2013,Lansner2013,Cousins2014,Takac2015}, and encoding algorithms, which ... \cite{Howard2002,Brown2002,Brown2007,Rabinovich}.
+Some are more complicated than others?
 
-* process models \cite{Raaijmakers1981,Davelaar2005,Cousins2014}
-* similarity models \cite{Howard2002,Brown2002,Brown2007}
-* dual models? \cite{Sederberg2008,Piquado2010}
-* Primacy/PFR \cite{Farrell2012a,Lehman2013}
-
-Other models \cite{Szatmary2010,Machens2005}
+A subset of process models define detailed biological mechanisms ... \cite{Lisman1995,Grossberg1978,Mongillo2008,Szatmary2010}. 
+Other related non-list memory models?? \cite{Machens2005}
