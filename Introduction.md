@@ -18,13 +18,13 @@ A key point of disagreement within the literature is whether memory for recently
 
 ## Memory theories, summary of trends
 
--Buffers (active maintenance) vs similarity (interference)
+- Buffers (active maintenance) vs similarity (interference)
 
 The debate regarding the mechanisms operating in list recall tasks is a front in the larger debate about short-term memory in general: that between buffer maintenance and attention-driven theories. Buffer theories posit that the most recently perceived stimuli are maintained in short term memory buffers via active mechanisms \cite{Baddeley1974,Baddeley2010,Davelaar2005,Grossberg1978,Bradski1994}. This view has won empirical support, especially from electophysiological recordings from behaving primates \cite{Funahashi1989,Fuster1971,Fuster1973,Miyashita1988,Miyashita1988a}, coalescing into a 'standard model' of short term memory \cite{Goldman-Rakic1987,Goldman-Rakic1990,Courtney2004,Postle2006}.
 
-Attention driven theories propose that short-term memory is simply the process of temporarily re-activating, or 'attending' to, memory representations stored in LTM \cite{Cowan1993,Cowan2008} (more?). (Such theories reject Baddeley's \cite{Baddeley1974} physical separation of short- from long-term processing, and instead propose a functional separation only, consistent with Atkinson & Shiffrin's \cite{Atkinson1968} original proposal, and, in fact, the Hebbian idea of 'transient memory' \cite{Hebb1949}). Several LTM memories can be reactivated at the same time, with only a subset of these in the 'focus' of attention as generally understood, allowing for gradations in focus and maintenance \cite{Cowan2008}. In the case of word list recall, presented words would be reactivated with the most recent word in focus and most highly activated, and less recent words fading into the deactivation.
+Attention driven theories propose that short-term memory is simply the process of temporarily re-activating, or 'attending' to, memory representations stored in LTM \cite{Cowan1993,Cowan2008} (more?). (Such theories reject Baddeley's \cite{Baddeley1974} physical separation of short- from long-term processing, and instead propose a functional separation only, consistent with Atkinson & Shiffrin's \cite{Atkinson1968} original proposal, and, in fact, the Hebbian idea of 'transient memory' \cite{Hebb1949}). Multiple LTM memories can be reactivated at the same time, with only a subset of these being the 'focus' of attention as generally understood, allowing for gradations in the level of focus and active maintenance \cite{Cowan2008}: In the case of word list recall, the representation of the current word would be reactivated most strongly and be in 'focus', with less recent words fading to baseline.
 
-
+In this way \cite{Cowan2008} leaves open the possibility for both decay of active maintenance and interference between stored representations as mechanisms of forgetting. This is a further site of contest between buffer and attentional theories \cite{Jonides2008}, with attentional theories traditionally operating on distinctiveness \site{Nairne1997,Brown2002,Brown2008,Howard2002} whereby the most distinctive 
 
 
 - Whether there are dedicated memory modules or whether short term memory is effected by attentional processes \cite{Postle2006,Jonides2008,Courtney2004}
