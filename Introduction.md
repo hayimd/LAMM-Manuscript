@@ -36,12 +36,16 @@ Given, firstly, the natural representational overlap between context and its con
 ## Comparison to other models
 - Most similar models
 
-LAMM's mechanisms are most similar to Raaijmaker and Shiffrin's Search of Associative Memory (SAM) \cite{Raaijmakers1981}, and in some ways can be considered a biological implementation of those ideas. LAMM's shares much with \cite{Davelaar2005} in general construction, except that their memory network activity evolves stochastically, and independently of items presented, unlike ours. Instead, LAMM's memory network could be seen as a crude neuronal implementation of TCM's context signal, in that memory activity both reflects and is driven by presented items, yet we do not have the perfect fidelity of representation that TCM's infinite dimensional context vector allows. Additionally, the LTM network comprising the other half of LAMM operates in a similar fashion to the memory models of \cite{Verduzco-Flores2012} and \cite{Lansner2013}. (talk about our difference here!).
+LAMM's mechanisms are most similar to Raaijmaker and Shiffrin's Search of Associative Memory (SAM) \cite{Raaijmakers1981}, and in some ways can be considered a biological implementation of those ideas. LAMM's shares much with \cite{Davelaar2005} in general construction, except that their memory network activity evolves stochastically, and independently of items presented, unlike ours. Instead, LAMM's memory network could be seen as a crude neuronal implementation of TCM's context signal, in that memory activity both reflects and is driven by presented items, yet we do not have the perfect fidelity of representation that TCM's infinite dimensional context vector allows. 
+
+The LTM network comprising the other half of LAMM operates in a similar fashion to the memory model of \cite{Verduzco-Flores2012}. (talk about our difference here!).
+
+\cite{Lansner2013}  \cite{Rundus1971}
 
 - Process models, recall probability laws, biological mechanistic models
 * Recall laws as defining a probability for recalls given parameters
 
-Most generally, list-memory models may be classified into process models, which include mechanistic models of both list encoding and recall, and simulate the experimental paradigm being considered \cite{Raaijmakers1981,Howard2002,Davelaar2005,Sederberg2008,Piquado2010,Farrell2012a,Verduzco-Flores2012,Lehman2013,Lansner2013,Cousins2014,Takac2015}; and encoding algorithms, which define a representation for memory encoding, but do not explicitly simulate the process of encoding and recall under any particular experiment \cite{Brown2002,Brown2007,Afraimovich2004}.
+Most generally, list-memory models may be classified into process models, which include mechanistic models of both list encoding and recall, and simulate the experimental paradigm being considered \cite{Raaijmakers1981,Davelaar2005,Sederberg2008,Piquado2010,Farrell2012a,Verduzco-Flores2012,Lehman2013,Lansner2013,Cousins2014,Takac2015}; and encoding algorithms, which define a representation for memory encoding, but do not explicitly simulate the process of encoding and recall under any particular experiment \cite{Murdock1997,Howard2002,Brown2002,Brown2007,Afraimovich2004}.
 Some are more complicated than others?
 
 A subset of process models define detailed biological mechanisms ... \cite{Lisman1995,Grossberg1978,Mongillo2008,Szatmary2010}. 
