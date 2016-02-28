@@ -38,9 +38,14 @@ Given, firstly, the natural representational overlap between context and its con
 
 LAMM's mechanisms are most similar to Raaijmaker and Shiffrin's Search of Associative Memory (SAM) \cite{Raaijmakers1981}, and in some ways can be considered a biological implementation of those ideas. LAMM's shares much with \cite{Davelaar2005} in general construction, except that their memory network activity evolves stochastically, and independently of items presented, unlike ours. Instead, LAMM's memory network could be seen as a crude neuronal implementation of TCM's context signal, in that memory activity both reflects and is driven by presented items, yet we do not have the perfect fidelity of representation that TCM's infinite dimensional context vector allows. 
 
-The LTM network comprising the other half of LAMM operates in a similar fashion to the memory model of \cite{Verduzco-Flores2012}. (talk about our difference here!).
+- Verduzco-Flroes uses single LTM-like layer, with a 2nd layer extension. Uses cumulative inputs (k co-active cells) \cite[cf ]{Jensen1996b} to maintain and disambiguate sequences --> essentially a 'momentum' term
+- In second mode, 1st layer stores sequences which act as timing signals, to which more complex patterns in 2nd later can be associated.
+The LTM network comprising the other half of LAMM operates in a similar fashion to the memory model of \cite{Verduzco-Flores2012}.
 
+- Lansner's model uses macro-columnar architecture to encode sparse patterns of activity --> essentially a more sophisticated LCAS, with our LTM i/o layer being computed via dot-product rather than simulated
+- Use reactivation during encoding as primacy mechanism, but is too powerful (kills primacy when off)
 \cite{Lansner2013}  \cite{Rundus1971}
+
 
 - Process models, recall probability laws, biological mechanistic models
 * Recall laws as defining a probability for recalls given parameters
