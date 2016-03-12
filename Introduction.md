@@ -32,6 +32,12 @@ Given, firstly, the natural representational overlap between context and its con
 
 - outline LAMM here?
 
+The Linking via Active Maintenance model is premised upon the two known mechanisms of neuronal memory: active maintenance and synaptic plasticity, both of which were also present in SAM \cite{Raaijmakers1980}. In this way it aims to combine aspects of both the active buffer and contextual association models that have proven successful. Moreover, these processes are not independent, but interact according to the standard Hebbian paradigm \cite{Hebb1949,Amit1995} wherein the repeated firing of maintained activity leads to strengthening of the connections which support it, thus 'wiring in' this activity pattern for later reactivation.
+
+LAMM is structured
+
+LAMM's memory layer also aims to meet three criteria: Firstly, that it be limited in capacity, and hence must be modality- and type-agnostic, unlike the potentially combinatoric components of a fully compartmental Baddley-style memory \cite{Courntey2004,Postle2006}; secondly, it have an intermediate dimensionality, small enough such that memory activity is discrete between representations of different list items, but large enough that these overlap and may also represent the current context via such superposition of recent items \cite{Usher2008}; finally, that the activity evoked in the memory layer be variable such that it depends on recent history, and hence that repeated stimuli may evoke different patterns of activity each time it is presented to the network. The second property is a statement of distributed coding, that memory activity representing different items may overlap; the third property requires that these patterns of activity not be determined solely by the input connectivity 
+
 
 ## Comparison to other models
 - Most similar models
