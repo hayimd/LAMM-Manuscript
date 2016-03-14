@@ -9,4 +9,5 @@ figures/4.15-16 item corrs in mem/4.15-16 item corrs in mem.png
 figures/4.23 perms both/4.23 perms both.png
 figures/recall_vs_list_length_narrow1/recall_vs_list_length_narrow1.png
 Discussion.md
+figures/Screen Shot 2016-03-14 at 3.44.00 PM/Screen Shot 2016-03-14 at 3.44.00 PM.png
 Methods.md
