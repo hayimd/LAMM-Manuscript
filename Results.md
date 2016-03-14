@@ -9,9 +9,9 @@ The firing-rate model LAMM \cite{Cousins2014} successfully encodes and recalls i
 After the last 2s presentation period (broken magenta line), external currents to the layers are slightly altered (Table ?), while a short increased input to the inhibitory Item layer units halts activity in the Item layer, easing off after 200 ms (solid magenta line). Thereafter, the network is left to evolve on its own, resulting in the spontaneous reactivation of 8 of the 12 presented items [_Check this, and run longer!_], which are recorded as recalled items. Note that plasticity is ongoing during the recall stage and is not switched off (Fig S?), as in other models \cite{Lansner2013}.
 
 * compare with behavioural data
+* output order pretty good (Fig \ref{crp})
 * recall depends on list length (Fig \ref{listlength})
-* recall depends on list orderings (Fig. \ref{projectivity})
-* recall worsens with noise; worsens with recall phase plasticity (Fig. \ref{noise})
+* recall worsens with noise; worsens with recall phase plasticity (Fig \ref{noise})
 
 
 Although items are often recalled in sequential order, recall also jumps around the list. This is quantified by the conditional response probability curves \cite[CRP, ]{Howard1999}, which compute the probability, over all lists presented, of recalling the word presented at position \(i+j\) after recalling the word presented at position \(i\). Figure \ref{crp} shows that LAMM's output ordering well matches experimental behaviour, and is producing free recall. On the other hand, LAMM's overall recall behaviour, as characterised by the serial position curves, is not consistent with the data (Fig \ref{listlength}), showing a largely flat average dependence on presentation position and neither primacy nor recency. Interestingly, LAMM does exhibit the correct scaling of reduced overall recall for longer lists, which we will return to later.
