@@ -1,6 +1,7 @@
 ## Analaysis of dynamics
 
 * correlations showing memory activity driven mainly by projective connectivity
+
 * recall of words vs initial biases, c.f receptive fields -- seemingly a broad null result
    * BUT at least show \(\Delta W\) vs intial \(W\) 
 
