@@ -1,1 +1,1 @@
-Replace this text with your caption
+Recall moments vs List length \label{scaling}
