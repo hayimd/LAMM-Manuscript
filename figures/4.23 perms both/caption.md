@@ -1,1 +1,1 @@
-Replace this text with your caption
+Initial connectivity affects recall performance per item \label{projectivity}
