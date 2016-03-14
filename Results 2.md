@@ -3,10 +3,12 @@
 * correlations showing memory activity driven mainly by projective connectivity
 
 * recall of words vs initial biases, c.f receptive fields -- seemingly a broad null result
-   * BUT at least show \(\Delta W\) vs intial \(W\) 
+
+   - BUT at least show \(\Delta W\) vs intial \(W\) 
 
 * recall vs list length scales as power law \cite{Murdock1962} (Fig. \ref{scaling})
 sequences dont always follow strongest links, c.f. \cite{Romani2013} transition model
+
     - comparison of recall plasticity vs none sequences
 
 
