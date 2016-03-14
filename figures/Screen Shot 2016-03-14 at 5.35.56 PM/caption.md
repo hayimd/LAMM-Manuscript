@@ -1,1 +1,1 @@
-Replace this text with your caption
+Conditional response probabilities \label{crp}
