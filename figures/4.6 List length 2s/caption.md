@@ -1,1 +1,1 @@
-Replace this text with your caption
+Recall vs. List length \ref{listlength}
