@@ -6,7 +6,7 @@
 * recall vs list length scales as power law \cite{Murdock1962} (Fig. \ref{scaling})
 sequences dont always follow strongest links, c.f. \cite{Romani2013} transition model
   - comparison of recall plasticity vs none sequences
-* recall increases with rehearsal for early items \cite{Rundus1971,Lansner2013} (Fig. S\ref{rehearsal})* 
+* recall increases with rehearsal for early items \cite{Rundus1971,Lansner2013} (Fig. S\ref{rehearsal})
 
 ## Analysis of robustness <-- not done
 
