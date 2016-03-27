@@ -1,3 +1,4 @@
+figures/4.11 LAMM_base_probetest_2a/4.11 LAMM_base_probetest_2a.png
 Abstract.md
 Introduction.md
 Results.md
