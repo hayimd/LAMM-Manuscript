@@ -1,1 +1,1 @@
-Recall vs reactivation \label{rehearsal}
+\label{rehearsal} Recall vs reactivation
