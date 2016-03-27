@@ -1,6 +1,6 @@
 # Introduction
 
-The existence and nature of a distinction between short and long term memory has been debated for over a century \cite{James1890,Jonides2008}. Associative buffer models, such as Raaijmakers and Shiffrin’s Search of Associative Memory \cite[SAM, ]{Raaijmakers1981}, present computational implementations of the highly influential theory of separate but interacting short and long-term memory processes \cite{Atkinson1968,Baddeley1974}.
+The existence, and nature, of a distinction between short and long term memory has been debated for over a century \cite{James1890,Jonides2008}. Associative buffer models, such as Raaijmakers and Shiffrin’s Search of Associative Memory \cite[SAM, ]{Raaijmakers1981}, present computational implementations of the highly influential theory of separate but interacting short and long-term memory processes \cite{Atkinson1968,Baddeley1974}.
 
 The features of SAM illustrate the canonical dual-storage algorithm: Items to be recalled are entered into a temporary storage buffer, replacing prior items if the buffer is full, and therein form episodic associations with other buffer items, and perhaps also a context marker. Those associations then serve as cues for consecutive recalls, producing many of the familiar dynamics of list recall performance \cite{Davelaar2005}.
 
