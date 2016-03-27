@@ -13,3 +13,4 @@ figures/recall_vs_list_length_narrow1/recall_vs_list_length_narrow1.png
 Discussion.md
 Methods.md
 figures/Screen Shot 2016-03-14 at 3.44.00 PM/Screen Shot 2016-03-14 at 3.44.00 PM.png
+figures/4.11 LAMM_base_probetest_2a1/4.11 LAMM_base_probetest_2a1.png
