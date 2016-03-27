@@ -1,1 +1,1 @@
-label{switching} Memory layer mediates switching behaviour.
+\label{switching} Memory layer mediates switching behaviour.
