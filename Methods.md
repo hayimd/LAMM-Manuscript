@@ -12,6 +12,8 @@ Representation
  2. in any persistent activity still in the memory module at list end -- this activity should preferantially represent/store late list items, and thus be more related to recency effect.  
      * [^ can check this!.. have i already?]
 
+LAMM proposes a novel, general purpose memory network, characterised by limited capacity and active maintenance. This network (referred to herein as the 'memory layer') receives input from, and helps to reactivate, a second network which is assumed to encode the natural language lexicon. Although the short term memory theory of LAMM does not depend upon the specifics of long term storage of lexical knowledge, we assume that words are stored and represented in the brain such that they may be perceived discretely and uniquely, and that upon hearing a known word clearly, perception quickly settles upon a single answer. We thus represent word perception and discrimination in LAMM as the unique and exclusive activation of a subset of neurons, with each subset coding a different word and forming an attractor in the neural dynamics -- a so-called winner take all network \cite{Brunel2000,Amit1995}.
+
 Network structure
 
 * Two layer network. 1st representing the lexicon, WTA. 2nd the memory module, designed as a k-winners take all attractor net [< but weakly so? strenghtened by plasticity? CHECK THIS, noplastic.]
