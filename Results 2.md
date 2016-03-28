@@ -18,6 +18,8 @@ Correlations in memory activity for different items within a list (off-diagonal 
 
 ### Dependence on list length; scaling law
 
+\ref{scaling}
+
 ### Reactivation and rehearsal 
 
 \citet{Rundus1971} found that for subjects using overt rehearsal as a mnemonic strategy, recall increased with the frequency of rehearsal for a given item, but that early items were rehearsed more and recalled less than later ones. \citet{Lansner2013} propose a single layer free recall model similar to our item layer, and which relies heavily on reactivations of already presented items during the remainder of the list. In their model, early items are also reactivated more often, and recall for these early items largely disappears if such reactivation is suppressed. Supplementary fig. \ref{rehearsal} shows spontaneous reactivations of item in LAMM, with greater frequency for earlier items, and increased recall in lists where that item reactivates. Unlike \cite{Lansner2013}, recall for these early items does not require reactivation, but can be cued via the memory network.
