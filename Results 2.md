@@ -18,7 +18,7 @@ Correlations in memory activity for different items within a list (off-diagonal 
 
 ### Dependence on list length; scaling law
 
-\ref{scaling}
+Fig. \ref{scaling}
 
 ### Reactivation and rehearsal 
 
