@@ -1,1 +1,1 @@
-Replace this text with your caption
+\label{buffer} Persistence of presented items' representations in the memory network.
