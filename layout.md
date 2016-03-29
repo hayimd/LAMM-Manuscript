@@ -11,6 +11,6 @@ figures/4.23 perms both/R vs items.png
 figures/recall_vs_list_length_narrow1/recall scaling.png
 Discussion.md
 Methods.md
-figures/Screen Shot 2016-03-14 at 3.44.00 PM/rehearsal.png
 figures/4.11 LAMM_base_probetest_2a1/probe test.png
+figures/Screen Shot 2016-03-14 at 3.44.00 PM/rehearsal.png
 figures/romani_transitions1/romani_transitions1.png
