@@ -4,7 +4,7 @@ The existence, and nature, of a distinction between short and long term memory h
 
 The features of SAM illustrate the canonical dual-storage algorithm: Items to be recalled are entered into a temporary storage buffer, replacing prior items if the buffer is full, and therein form episodic associations with other buffer items, and perhaps also a context marker. Those associations then serve as cues for consecutive recalls, producing many of the familiar dynamics of list recall performance \cite{Davelaar2005}.
 
-The Linking via Active Maintenance Model (LAMM) aims to explore the biological feasibility of associative buffer memory theories by implementing them as neuronal networks. Additionally, advance the debate between dual- and single-memory models \cite{Brown2002,Howard2002,Cowan2008} by arguing that, when implemented neuronally, associative buffer networks incorporate temporal context dynamics \cite{Usher2008}. Finally, LAMM’s architecture is based upon prior work showing that buffer mediated associations are necessary to explain the effects of degraded stimuli on recall \cite{Piquado2010,Miller2010,Cousins2014}.
+The Linking via Active Maintenance Model (LAMM) aims to explore the biological feasibility of associative buffer memory theories by implementing them as neuronal networks. Additionally, it advances the debate between dual- and single-memory models \cite{Brown2002,Howard2002,Cowan2008} by arguing that, when implemented neuronally, associative buffer networks incorporate temporal context dynamics \cite{Usher2008}. Finally, LAMM’s architecture is based upon prior work showing that buffer mediated associations are necessary to explain the effects of degraded stimuli on recall \cite{Piquado2010,Miller2010,Cousins2014}.
 
 ## Word list recall
 
