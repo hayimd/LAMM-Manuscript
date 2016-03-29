@@ -1,1 +1,1 @@
-Replace this text with your caption
+\label{mem_rfs} Sharpening of memory cell tuning after learning
