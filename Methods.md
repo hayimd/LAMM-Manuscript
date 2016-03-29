@@ -1,5 +1,5 @@
 # Methods
-Representation
+## Representations in LAMM
 
 * episodes are encoded in theoretically two ways:
  1. in the changes in activation-based plasticity that result from the sequence of activated words and memory units.  
@@ -10,7 +10,7 @@ LAMM proposes a novel, general purpose and type-agnostic memory network characte
 
 Like the winner-take-all dynamic of the item layer, the memory network is also shaped by mutually-excitatory connections within subgroups of neurons and lateral inhibition between them, in order that these subgroups may achieve elevated firing while suppressing other subgroups. Weaker lateral inhibition in the memory layer however allows multiple such subgroups to be active simultaneously, a dynamic called k-winners-take-all. Such elevated activity of a few subgroups in LAMM constitutes the active memory of the item which evoked it, with the identification between item representations and its memory correlates defined by these item-memory excitatory connections. However, multiple lexicon items may excite the same memory subgroups -- since the memory layer is restricted in size -- so the initial connectivity is not enough to uniquely define a memory to item mapping: This is instead encoded by short term synaptic potentiation \cite{Erickson2010} between item and memory network subgroups during the presentation process. This potentiation temporarily allows memory activity to preferentially excite only certain words' neurons in the lexicon, and vice versa, when before learning such activity may have equally excited other words as well. In this sense, learning in LAMM constitutes a honing of connectivity, or receptive fields (Supplementary Fig. S\ref{mem_rfs}), during each list presentation. These changes are assumed to decay over several minutes.
 
-Network structure
+## Network structure and dynamics
 
 * Two layer network. 1st representing the lexicon, WTA. 2nd the memory module, designed as a k-winners take all attractor net [< but weakly so? strenghtened by plasticity? CHECK THIS, noplastic.]
 * External excitation to both networks represent afferents from other/ related networks, and attentional control [^ some kind of network structure citation? If LAMM is in PFC, then what are its inputs?]
