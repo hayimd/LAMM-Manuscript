@@ -18,7 +18,9 @@ Correlations in memory activity for different items within a list (off-diagonal 
 
 ### Dependence on list length; scaling law
 
-Fig. \ref{scaling}
+LAMM's recall model is primarily one of associative cuing, in the manner of SAM \cite{Raaijmakers1981}, and also TCM \cite{Howard2002}. The simple network implementation reported herein does not included a mechanism for preferential output of buffer contents unlike SAM. Whilst initial recall is likely driven by the activity state of the memory network, which may overlap with multiple items' memory correlates, LAMM can be understood to either lack a stable buffer or to have such a buffer of capacity 1. Dominated by the associative linking between items, the simplest analysis of LAMM would be to consider it as an example of an undirected graph. \citet{Romani2013} considered the recall dynamics of such networks and found that mean recall increased with a power of list length, \(\<R(L)\> = a L^\alpha\), and similarly for the standard deviation in recalls, as has been observed many times in the experimental literature (CITES). Assuming that the next item to be recalled would be that with the strongest link to the previous, and that transitions from one item back to the item preceeding it (loops of length 2) are suppressed, they estimated exponents \(\alpha\) between 0.3 - 0.5, in general agreement with data from \cite{Murdock1960}. 
+
+Fig. \ref{scaling} shows this same recall scaling behaviour in LAMM, with exponents of XX and XX for mean and standard deviation of lists of different lengths. This suggests, firstly, that LAMM is dominated by associative transitions, rather than a possible buffer readout, and, secondly, that LAMM's recall dynamics capture the dominant dynamic of free recall. It is important to note, however, that LAMM does not always follow the strongest inter-item links, and does admit 2-item loops. 
 
 ### Reactivation and rehearsal 
 
