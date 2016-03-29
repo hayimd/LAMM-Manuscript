@@ -1,7 +1,7 @@
 Abstract.md
 Introduction.md
 Results.md
-figures/Rates_N90_L12_R1/Rates_N90_L12_R1.png
+figures/Rates_N90_L12_R1/rate_plot.png
 figures/Screen Shot 2016-03-14 at 5.35.56 PM/Screen Shot 2016-03-14 at 5.35.56 PM.png
 figures/4.6 List length 2s/4.6 List length 2s.png
 figures/4.22 Recall vs noise/Noise and Connectivity.png
