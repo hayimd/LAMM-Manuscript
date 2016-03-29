@@ -1,1 +1,1 @@
-Replace this text with your caption
+Can recall a sequence (45 s of recall time)
