@@ -44,7 +44,6 @@ Rate thresholds, \(\rho\), and threshold steepness, \(\gamma\), were fit by the 
 
 Model choices
 
-- Exact connectivity is arbitrary..
-    - Projections from lexicon to memory are slightly sparse, in order to increase selectivity [< this perhaps is why the network is so strongly driven by I->M connections!]
+- Exact connectivity is arbitrary..?
     - Levels of faciliation, depression, adaptation [< chosen... how?] 
     - Levels of max potentiation, chosen via optimisation over total recall probability.
