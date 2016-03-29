@@ -1,4 +1,4 @@
-## Analaysis of dynamics
+## Analysis of dynamics
 
 ### Variability in memory network representations
 
