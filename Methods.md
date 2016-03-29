@@ -15,11 +15,9 @@ However, multiple lexicon items may excite the same memory subgroups -- since th
 
 ## Network structure and dynamics
 
-* Two layer network. 1st representing the lexicon, WTA. 2nd the memory module, designed as a k-winners take all attractor net [< but weakly so? strenghtened by plasticity? CHECK THIS, noplastic.]
 * External excitation to both networks represent afferents from other/ related networks, and attentional control [^ some kind of network structure citation? If LAMM is in PFC, then what are its inputs?]
     * Eg different levels of excitation to memory and lexicon used to kick start recall (increase to memory net, decrease to lexicon).
  
-
 For computational convenience, the networks in this work have been modeled in a coarse-grained fashion using rate-model neuron units, which represent the neuron subgroups mentioned above \cite{Brunel2000,Renart2004}. This approximation assumes that these subgroups share similar inputs and correlated behaviour.
 
 For the simulations shown herein, networks of sizes 90 (60/30 memory/item) and 180 (120/60 memory/item) rate-model cells were used. 1 in 5 units were assigned to each layer's inhibitory population, whose connections projected locally within each layer, but not between them. Each excitatory unit received a large recurrent self-connection, and only very weak lateral connections. For full connectivity details, see Table XX.
