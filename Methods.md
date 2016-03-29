@@ -5,6 +5,7 @@
  1. in the changes in activation-based plasticity that result from the sequence of activated words and memory units.  
  2. in any persistent activity still in the memory module at list end -- this activity should preferentially represent/store late list items, and thus be more related to recency effect.  
      * [^ can check this!.. have i already?]
+     * Fig 4.18 (S\ref{buffer}) from thesis perhaps shows that recall for early items depends on final memory activity being similar to those items' memory activity, but that middle to late items generally did not have memory activity that correlated with memory state at list end. SO... early items need the buffer, but late ones dont? [Should look at this again]
 
 LAMM proposes a novel, general purpose and type-agnostic memory network characterised by temporary plasticity, limited capacity and active maintenance. This network (referred to herein as the 'memory layer') receives input from, and helps to reactivate, a second network which is assumed to encode the natural language lexicon (the 'item layer'). Moreover, the memory layer is limited in its representational capacity, so that memory network is not simply a 1-1 copy of the lexicon. Although the short term memory theory of LAMM does not depend upon the specifics of long term storage of lexical knowledge, we assume that words are stored and represented in the brain such that they may be perceived discretely and uniquely, and that upon hearing a known word clearly, perception quickly settles upon a single answer. We thus represent word perception and discrimination in LAMM as the unique and exclusive activation of a subset of neurons, with elevated activity in each subset coding a different word and forming an attractor in the neural dynamics -- a so-called winner take all network \cite{Amit1995,Brunel2000}.
 
@@ -41,6 +42,9 @@ is the maximum potentiation increment for the synapse from unit j to unit i, wit
 \[\dot{W}_{i\leftarrow j} = \frac{W_{i\leftarrow j}^0 - W_{i\leftarrow j}(t)}{\tau_{fall}} + \Delta W_{i\leftarrow j} \frac{W_{i\leftarrow j}^{max} - W_{i\leftarrow j}(t)}{\tau_{rise}}. \]
 Rate thresholds, \(\rho\), and threshold steepness, \(\gamma\), were fit by the optimization, while rate contants \(\tau_{rise} = .5 \textrm{ s}\) and \(\tau_{fall} = 185 \textrm{ s}\) were estimated from the data in \cite{Erickson2010}.
 
+Free recall trials were simulated by successively providing input current pulses to a random subset of item cells, generally lasting 200 ms, every 2 seconds. Following the final 2s presentation interval, a decaying extra stimulus to the inhibitory item cells suppressed activity in the item layer, after which the network was left to run independently. Only the external background currents to the cell populations distinguish the recall stage from presentation: background current to excitatory memory units was roughly halved, whilst all other cells received slight increases. No other parameter changes are made.
+
+Words are considered to be recalled if their item layer units are excited to the high firing rate at any point during the recall period. Repeated reactivations were ignored, so that for determining the recall output order, on the first reactivation is counted. Recall and transition measures were computed as in \cite{Cousins2014}, whence human behavioural data for 7 word lists is taken; data for 5 and 10 word lists is from (Did Katie publish these?).
 
 Model choices
 
