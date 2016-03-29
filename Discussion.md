@@ -22,4 +22,4 @@ Directions
 * A true kWTA in the emory layer / more independent dynamics \cite[more like ]{Davelaar2005,Litwin-Kumar2012}
 * Some kind of primacy mechanism (attention to list-start context?)
 * multiple lists -- to see if the concept of using ASTP is indeed viable.
-* 
+
