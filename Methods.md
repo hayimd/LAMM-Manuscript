@@ -3,7 +3,7 @@
 
 * episodes are encoded in theoretically two ways:
  1. in the changes in activation-based plasticity that result from the sequence of activated words and memory units.  
- 2. in any persistent activity still in the memory module at list end -- this activity should preferantially represent/store late list items, and thus be more related to recency effect.  
+ 2. in any persistent activity still in the memory module at list end -- this activity should preferentially represent/store late list items, and thus be more related to recency effect.  
      * [^ can check this!.. have i already?]
 
 LAMM proposes a novel, general purpose and type-agnostic memory network characterised by temporary plasticity, limited capacity and active maintenance. This network (referred to herein as the 'memory layer') receives input from, and helps to reactivate, a second network which is assumed to encode the natural language lexicon (the 'item layer'). Moreover, the memory layer is limited in its representational capacity, so that memory network is not simply a 1-1 copy of the lexicon. Although the short term memory theory of LAMM does not depend upon the specifics of long term storage of lexical knowledge, we assume that words are stored and represented in the brain such that they may be perceived discretely and uniquely, and that upon hearing a known word clearly, perception quickly settles upon a single answer. We thus represent word perception and discrimination in LAMM as the unique and exclusive activation of a subset of neurons, with elevated activity in each subset coding a different word and forming an attractor in the neural dynamics -- a so-called winner take all network \cite{Amit1995,Brunel2000}.
