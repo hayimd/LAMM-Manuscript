@@ -31,7 +31,7 @@ In this way \cite{Cowan2008} leaves open the possibility for both decay of activ
 
 Given, firstly, the natural representational overlap between context and its constituent parts, as evident in TCM; secondly, evidence suggesting that both buffer- and context-like mechanisms may be needed to explain observed recall phenomena \cite{Miller2010,Cousins2014}; and the efficiency advantage in constructing short-term memory as a process operating on LTM representations \cite{Raaijmakers1981a,Davelaar2013,Postle2006} rather than require a potentially combinatoric duplication of LTM; we propose a novel short-term memory network with the following properties: The LAMM memory network is an activation based buffer, which represents stimuli agnostically to the stimulus type or modality, and in which items being remembered are also associated with one another, encoding contextual information about such multi-item episodes.
 
-## Linking Via Ative Maintenance
+## Linking Via Active Maintenance
 
 - outline LAMM here
 
